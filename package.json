@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Rogetz.github.io/myPortfolioTest2",
+    "build-gh": "parcel build --public-url 'https://Rogetz.github.io/myPortfolioTest2'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
